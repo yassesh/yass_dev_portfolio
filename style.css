@@ -8,9 +8,6 @@ h1{
 .myName{
     color:orange;
 }
-.part-one{
-    display: flex;
-}
 .half-width{
     width: 50%;
     padding-left: 5%;    
@@ -27,4 +24,17 @@ h1{
 .part-one{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.part-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big{
+    padding-right: 5%;
 }
